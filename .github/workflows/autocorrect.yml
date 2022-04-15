@@ -1,5 +1,7 @@
 name: Check autocorrect
 
+on: push
+
 jobs:
   autocorrect:
     name: autocorrect
