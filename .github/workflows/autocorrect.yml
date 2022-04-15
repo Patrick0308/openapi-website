@@ -5,6 +5,7 @@ on: push
 jobs:
   autocorrect:
     name: autocorrect
+    runs-on: ubuntu-latest
     steps:
       - name: Check source code
         uses: actions/checkout@main
