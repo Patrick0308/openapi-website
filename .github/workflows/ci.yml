@@ -1,0 +1,5 @@
+steps:
+  - name: Check source code
+    uses: actions/checkout@main
+  - name: AutoCorrect
+    uses: huacnlee/autocorrect-action@main
