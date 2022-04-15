@@ -1,0 +1,10 @@
+name: Check autocorrect
+
+jobs:
+  autocorrect:
+    name: autocorrect
+    steps:
+      - name: Check source code
+        uses: actions/checkout@main
+      - name: AutoCorrect
+        uses: huacnlee/autocorrect-action@main
