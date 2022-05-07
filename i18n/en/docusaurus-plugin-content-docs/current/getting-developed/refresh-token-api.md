@@ -30,7 +30,6 @@ Call this to get a new `access_token` before the old `access_token` expires. The
 | Name       | Type   | Required | Description                                                                                                  | 示例                     |
 |------------|--------|----------|--------------------------------------------------------------------------------------------------------------|--------------------------|
 | expired_at | string | 是       | Expiration timestamp, formatted according to [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) specification | 2023-04-14T12:13:57.859Z |
-| aaid       | string | 是       | The account to create the token                                                                              |                          |
 
 ## Response 
 
